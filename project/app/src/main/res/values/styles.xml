@@ -4,10 +4,20 @@
         <item name="drawerType">@integer/DRAWERTYPE_IMAGE</item>
         <item name="rippleBackport">true</item>
         <item name="multipaneSupport">true</item>
+        <item name="learningPattern">false</item>
+    </style>
+
+    <style name="AppTheme.ActionBarTheme.TextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="AppTheme.ActionBarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBarTheme.TextStyle</item>
     </style>
 
     <!-- 网易新闻 -->
     <style name="NetEasyTheme" parent="AppTheme">
+        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
         <item name="colorPrimaryDark">#D32F2F</item>
         <item name="colorPrimary">#F44336</item>
         <item name="colorAccent">#7C4DFF</item>
