@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dummy">
+        <item>头条</item>
+        <item>热点</item>
+        <item>经济</item>
+        <item>科技</item>
+        <item>体育</item>
+        <item>娱乐</item>
+        <item>Dummy...</item>
+    </string-array>
+</resources>

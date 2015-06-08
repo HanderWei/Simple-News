@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">Simple-News</string>
+    <string name="app_name">Simple News</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="net_easy_title">网易新闻</string>
+    <string name="baidu_title">百度新闻</string>
+    <string name="tencent_title">腾讯新闻</string>
+
+
+    <string name="net_easy">网易</string>
+    <string name="baidu">百度</string>
+    <string name="tencent">腾讯</string>
+
+    <string name="settings">设置</string>
+
 </resources>
