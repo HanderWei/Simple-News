@@ -1,26 +1,42 @@
 <resources>
 
-    <style name="AppTheme" parent="MaterialNavigationDrawerTheme.Light">
-        <item name="drawerType">@integer/DRAWERTYPE_IMAGE</item>
-        <item name="rippleBackport">true</item>
-        <item name="multipaneSupport">true</item>
-        <item name="learningPattern">false</item>
+    <style name="AppTheme" parent="MaterialDrawerBaseBaseTheme.Light.DarkToolbar">
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="material_drawer_selected_text">#FF9800</item>
+        <item name="material_drawer_primary_text">#727272</item>
     </style>
 
-    <style name="AppTheme.ActionBarTheme.TextStyle" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">#fff</item>
-    </style>
-
-    <style name="AppTheme.ActionBarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
-        <item name="android:titleTextStyle">@style/AppTheme.ActionBarTheme.TextStyle</item>
-    </style>
 
     <!-- 网易新闻 -->
     <style name="NetEasyTheme" parent="AppTheme">
-        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
         <item name="colorPrimaryDark">#D32F2F</item>
         <item name="colorPrimary">#F44336</item>
         <item name="colorAccent">#7C4DFF</item>
+        <item name="material_drawer_selected_text">#D32F2F</item>
+    </style>
+
+    <!-- 百度新闻 -->
+    <style name="BaiduTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="material_drawer_selected_text">#2196F3</item>
+    </style>
+
+    <!-- 腾讯新闻 -->
+    <style name="TencentTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">#689F38</item>
+        <item name="colorPrimary">#8BC34A</item>
+        <item name="colorAccent">#FF5252</item>
+        <item name="material_drawer_selected_text">#8BC34A</item>
+    </style>
+
+    <!--psts-->
+    <style name="PagerSlidingTabStrip">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
     </style>
 
 </resources>

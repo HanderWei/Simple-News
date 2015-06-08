@@ -1,8 +1,8 @@
 package chen_wei.me.simple_news.fragments;
 
-import android.app.Fragment;
+
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +14,12 @@ import android.widget.TextView;
  */
 public class DummyFragment extends Fragment {
 
-    @Nullable
+    public static DummyFragment newInstance(){
+        DummyFragment fragment = new DummyFragment();
+        return fragment;
+    }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 网易新闻 -->
+    <color name="neteasy_colorPrimaryDark">#D32F2F</color>
+    <color name="neteasy_colorPrimary">#F44336</color>
+    <color name="neteasy_colorAccent">#7C4DFF</color>
+
+    <!-- 百度新闻 -->
+    <color name="baidu_colorPrimaryDark">#1976D2</color>
+    <color name="baidu_colorPrimary">#2196F3</color>
+    <color name="baidu_colorAccent">#FFC107</color>
+
+    <!-- 腾讯新闻 -->
+    <color name="tencent_colorPrimaryDark">#689F38</color>
+    <color name="tencent_colorPrimary">#8BC34A</color>
+    <color name="tencent_colorAccent">#FF5252</color>
+
+</resources>
